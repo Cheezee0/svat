@@ -1,0 +1,30 @@
+* {
+  padding: 0px;
+  box-sizing: border-box;
+  margin: 0px;
+}
+body {
+  background: black;
+}
+.box {
+  width: 800px;
+  height: 800px;
+  margin: 0 auto;
+  background: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.pix {
+  width: 20px;
+  height: 20px;
+  background-color: whitesmoke;
+}
+.pix:nth-of-type(2n) {
+  background-color: whitesmoke;
+}
+#c-inp {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
